@@ -43,11 +43,11 @@ a {
 }
 /* Header */
 
-.fixed-header{
+.fixed-header {
     background: #e6f0ff;
     padding-top: 26px;
     position: sticky;
-    top:-26px;
+    top: -26px;
     z-index: 1;
 }
 .hero-wrap {
@@ -55,7 +55,7 @@ a {
     flex-direction: column;
     position: relative;
     background: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 90px);
 }
 .navbar {
     display: flex;
